@@ -1,0 +1,22 @@
+lstm.py is the main file to look at
+It is preferred that you use ipython for data analysis, running the commands line by line
+will help understand the flow of the code.
+
+Dependencies or modules:
+(refer to https://machinelearningmastery.com/setup-python-environment-machine-learning-deep-learning-anaconda/)
+numpy
+panda
+sklearn
+os
+matplotlib
+tensorflow
+keras
+
+(refer https://pywavelets.readthedocs.io/en/latest/)
+pywt
+(refer https://github.com/danpaquin/gdax-python)
+gdax
+
+My scaler function from the slides is actually a poor implementation. As each different column has different
+ranges it is also neccesary to have different parameters for estimated future min and future max.
+This logical bug will have to be remedied in the future.
